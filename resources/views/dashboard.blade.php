@@ -97,7 +97,9 @@
     </div>
 </div>
 <a href="{{ route('chart.index') }}" class="btn btn-outline-primary rounded shadow px-4 py-3 btn-hover-scale">Voir Chart Produits</a>
-
+<a href="{{ route('chart.pie') }}" class="btn btn-primary px-4 py-2 rounded-pill">
+        Voir Pie Chart
+    </a>
 <style>
     body {
         background-color: #f9fafb;

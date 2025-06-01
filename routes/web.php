@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/dashboard/chart', [App\Http\Controllers\ChartController::class, 'index'])->name('chart.index');
+Route::get('/dashboard/piechart', [App\Http\Controllers\ChartController::class, 'pieChart'])->name('chart.pie');
 
 
 
