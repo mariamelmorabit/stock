@@ -30,8 +30,7 @@
             <a href="{{ route('same.products.customers') }}" class="btn btn-outline-warning rounded shadow px-4 py-3 btn-hover-scale">Clients ayant commandé les mêmes produits qu’Annabel Stehr</a>
             <a href="{{ route('products.orders_count') }}" class="btn btn-outline-dark rounded shadow px-4 py-3 btn-hover-scale">Nombre de Commandes par Produit</a>
             <a href="{{ route('products.more_than_6_orders') }}" class="btn btn-outline-primary rounded shadow px-4 py-3 btn-hover-scale">Produits avec plus de 6 Commandes</a>
-            <a href="{{ route('orders.totals') }}" class="btn btn-outline-danger rounded shadow px-4 py-3 btn-hover-scale">Total par Commande</a>
-            <a href="{{ route('orders.greater_than_60') }}" class="btn btn-outline-secondary rounded shadow px-4 py-3 btn-hover-scale">Commandes dont le Total dépasse celle n°60</a>
+          
         </div>
     </div>
 

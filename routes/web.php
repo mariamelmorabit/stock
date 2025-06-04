@@ -141,8 +141,6 @@ Route::get('/ordered-products', [ProductController::class, 'orderedProducts'])->
 Route::get('/same-products-customers', [CustomerController::class, 'sameProductsCustomers'])->name('same.products.customers');
 Route::get('products/orders-count', [ProductController::class, 'ordersCount'])->name('products.orders_count');
 Route::get('/products-more-than-6-orders', [ProductController::class, 'productsMoreThan6Orders'])->name('products.more_than_6_orders');
-Route::get('/order-totals', [OrderController::class, 'orderTotals'])->name('orders.totals');
-Route::get('/orders-greater-than-60', [OrderController::class, 'ordersGreaterThanOrder60'])->name('orders.greater_than_60');
 
 Route::get('/customers/orders', [StoreController::class, 'customers_orders'])->name('customers.orders');
 Route::get('/suppliers/products', [StoreController::class, 'suppliers_products'])->name('suppliers.products');
